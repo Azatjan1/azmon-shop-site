@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azmon Shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #0056b3;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .hero {
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    .button-download {
+      display: inline-block;
+      background-color: #28a745;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1em;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .button-download:hover {
+      background-color: #218838;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Azmon Shop</h1>
+    <p>Ваш магазин стильной одежды</p>
+  </header>
+
+  <nav>
+    <a href="#about">О нас</a>
+    <a href="#products">Товары</a>
+    <a href="#contact">Контакты</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Добро пожаловать в Azmon Shop!</h1>
+    <p>Покупайте модную одежду оптом и в розницу прямо с телефона.</p>
+    <a href="https://example.com/your-app.apk" class="button-download">Скачать приложение</a>
+  </section>
+
+  <section id="about">
+    <h2>О нас</h2>
+    <p>Azmon Shop — это современное мобильное приложение для покупки стильной и качественной одежды. Мы предлагаем как розничные, так и оптовые заказы с удобной доставкой.</p>
+  </section>
+
+  <section id="products">
+    <h2>Наши товары</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x400?text=Товар+1" alt="Товар 1">
+      <img src="https://via.placeholder.com/300x400?text=Товар+2" alt="Товар 2">
+      <img src="https://via.placeholder.com/300x400?text=Товар+3" alt="Товар 3">
+      <img src="https://via.placeholder.com/300x400?text=Товар+4" alt="Товар 4">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Контакты</h2>
+    <p>Email: support@azmonshop.com</p>
+    <p>Телефон: +998 (90) 123-45-67</p>
+    <p>Instagram: @azmon.shop</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Azmon Shop. Все права защищены.</p>
+  </footer>
+
+</body>
+</html>
